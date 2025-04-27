@@ -522,7 +522,7 @@ header {
     border: none;
     padding: 8px 24px;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
