@@ -600,6 +600,7 @@ header {
 .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
+
 }
 
 .modal {
@@ -616,6 +617,7 @@ header {
         0px 1px 3px 0px #0000001F,
         0px 2px 1px 0px #00000033;
     padding: 72px 24px 24px 24px;
+    transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -803,7 +805,7 @@ header {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-checkbox:checked+.form-span {
+.form-checkbox:checked+.form-condition.form-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
