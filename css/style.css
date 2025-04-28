@@ -805,7 +805,7 @@ header {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-checkbox:checked+.form-condition.form-span {
+.form-checkbox:checked+.form-condition .form-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
