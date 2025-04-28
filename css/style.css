@@ -21,9 +21,7 @@ img {
     display: block;
 }
 
-input {
-    all: unset;
-}
+input {}
 
 h1,
 h2,
